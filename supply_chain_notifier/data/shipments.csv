@@ -1,0 +1,201 @@
+shipment_id,product,supplier_id,supplier_name,origin_region,destination_warehouse,ship_date,expected_delivery_days,actual_delivery_days,delay_days,quantity,status,disruption_type
+SHP-0001,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-04-22,5,9,4,4937,REROUTED,transport_delay
+SHP-0002,Canned Soup,SUP-001,AgriSource Inc.,Midwest US,WH-Chicago,2026-04-17,5,6,1,1728,IN_TRANSIT,none
+SHP-0003,Pet Food,SUP-004,FreshHarvest Co.,South America,WH-Dallas,2026-04-29,6,5,0,1407,DELIVERED,none
+SHP-0004,Canned Soup,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-19,5,5,0,3212,DELIVERED,none
+SHP-0005,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-05-04,6,7,1,1122,DELIVERED,none
+SHP-0006,Canned Soup,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-04-24,7,8,1,1966,IN_TRANSIT,none
+SHP-0007,Laundry Detergent,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-12,3,3,0,3088,DELIVERED,none
+SHP-0008,Baby Formula,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-21,6,7,1,1501,DELIVERED,none
+SHP-0009,Pet Food,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-29,8,9,1,1899,DELIVERED,none
+SHP-0010,Shampoo,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-11,2,2,0,1828,DELIVERED,none
+SHP-0011,Bottled Water,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-05-05,9,10,1,2269,DELIVERED,none
+SHP-0012,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-05-02,6,6,0,3371,DELIVERED,none
+SHP-0013,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-05-01,9,12,3,1410,DELAYED,transport_delay
+SHP-0014,Canned Soup,SUP-005,MetalWorks Global,East Asia,WH-Chicago,2026-04-27,8,8,0,4632,DELIVERED,none
+SHP-0015,Organic Cereal,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-09,6,6,0,3661,DELIVERED,none
+SHP-0016,Baby Formula,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-05-15,6,5,0,971,DELIVERED,none
+SHP-0017,Laundry Detergent,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-21,4,3,0,4444,DELIVERED,none
+SHP-0018,Organic Cereal,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-30,2,10,8,574,STUCK_IN_TRANSIT,transport_delay
+SHP-0019,Frozen Pizza,SUP-005,MetalWorks Global,East Asia,WH-Chicago,2026-04-17,9,10,1,1151,DELIVERED,none
+SHP-0020,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-23,10,10,0,4517,DELIVERED,none
+SHP-0021,Frozen Pizza,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-05-06,7,8,1,2130,DELIVERED,none
+SHP-0022,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-04-15,10,9,0,582,IN_TRANSIT,none
+SHP-0023,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Chicago,2026-05-12,7,13,6,1855,STUCK_IN_TRANSIT,port_congestion
+SHP-0024,Pet Food,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-05-03,9,9,0,1659,DELIVERED,none
+SHP-0025,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-04-26,8,9,1,906,IN_TRANSIT,none
+SHP-0026,Organic Cereal,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-10,3,2,0,1248,DELIVERED,none
+SHP-0027,Canned Soup,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-29,5,4,0,4608,DELIVERED,none
+SHP-0028,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-11,2,1,0,4078,DELIVERED,none
+SHP-0029,Snack Bars,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-13,2,1,0,2272,DELIVERED,none
+SHP-0030,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-05-07,10,10,0,2530,DELIVERED,none
+SHP-0031,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-08,10,18,8,4885,DELAYED,transport_delay
+SHP-0032,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-20,2,1,0,661,DELIVERED,none
+SHP-0033,Bottled Water,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-04-27,3,4,1,4970,DELIVERED,none
+SHP-0034,Organic Cereal,SUP-005,MetalWorks Global,East Asia,WH-Chicago,2026-04-28,10,10,0,2673,DELIVERED,none
+SHP-0035,Frozen Pizza,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-04-19,6,5,0,4712,IN_TRANSIT,none
+SHP-0036,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-04-21,10,10,0,2101,DELIVERED,none
+SHP-0037,Shampoo,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-04-29,10,11,1,4433,DELIVERED,none
+SHP-0038,Organic Cereal,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-05-14,3,2,0,976,DELIVERED,none
+SHP-0039,Pet Food,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-24,5,4,0,2262,DELIVERED,none
+SHP-0040,Pet Food,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-13,2,11,9,129,STUCK_IN_TRANSIT,transport_delay
+SHP-0041,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-20,9,9,0,1016,DELIVERED,none
+SHP-0042,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-16,7,6,0,442,DELIVERED,none
+SHP-0043,Laundry Detergent,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-13,7,6,0,2997,DELIVERED,none
+SHP-0044,Pet Food,SUP-004,FreshHarvest Co.,South America,WH-Atlanta,2026-05-08,4,3,0,1550,DELIVERED,none
+SHP-0045,Canned Soup,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-08,7,7,0,2132,DELIVERED,none
+SHP-0046,Laundry Detergent,SUP-002,PackRight Ltd.,Southeast Asia,WH-Chicago,2026-04-27,2,1,0,3870,DELIVERED,none
+SHP-0047,Shampoo,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-04-22,2,2,0,668,DELIVERED,none
+SHP-0048,Laundry Detergent,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-27,10,9,0,2239,DELIVERED,none
+SHP-0049,Baby Formula,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-16,3,3,0,2669,DELIVERED,none
+SHP-0050,Canned Soup,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-18,8,7,0,3672,DELIVERED,none
+SHP-0051,Organic Cereal,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-06,5,4,0,2804,DELIVERED,none
+SHP-0052,Bottled Water,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-08,6,7,1,3396,DELIVERED,none
+SHP-0053,Laundry Detergent,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-21,8,8,0,1525,DELIVERED,none
+SHP-0054,Bottled Water,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-27,10,10,0,3621,DELIVERED,none
+SHP-0055,Bottled Water,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-29,9,8,0,1490,DELIVERED,none
+SHP-0056,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-05-06,7,22,15,1940,DELAYED,port_congestion
+SHP-0057,Frozen Pizza,SUP-002,PackRight Ltd.,Southeast Asia,WH-Chicago,2026-04-16,5,6,1,696,DELIVERED,none
+SHP-0058,Snack Bars,SUP-004,FreshHarvest Co.,South America,WH-Atlanta,2026-04-21,8,7,0,145,DELIVERED,none
+SHP-0059,Sports Drink,SUP-004,FreshHarvest Co.,South America,WH-Dallas,2026-04-20,10,11,1,1094,DELIVERED,none
+SHP-0060,Snack Bars,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-06,10,11,1,3725,DELIVERED,none
+SHP-0061,Bottled Water,SUP-005,MetalWorks Global,East Asia,WH-LA,2026-05-11,10,9,0,3988,DELIVERED,none
+SHP-0062,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-05-11,6,7,1,2059,DELIVERED,none
+SHP-0063,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-05-07,6,6,0,4524,DELIVERED,none
+SHP-0064,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-22,8,9,1,3498,DELIVERED,none
+SHP-0065,Canned Soup,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-29,8,17,9,4816,STUCK_IN_TRANSIT,transport_delay
+SHP-0066,Canned Soup,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-05-15,7,7,0,3532,DELIVERED,none
+SHP-0067,Pet Food,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-13,5,5,0,337,DELIVERED,none
+SHP-0068,Canned Soup,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-05-08,4,3,0,4475,DELIVERED,none
+SHP-0069,Organic Cereal,SUP-004,FreshHarvest Co.,South America,WH-Atlanta,2026-05-03,2,11,9,1588,DELAYED,port_congestion
+SHP-0070,Organic Cereal,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-04-25,5,5,0,3205,DELIVERED,none
+SHP-0071,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-11,3,4,1,2966,DELIVERED,none
+SHP-0072,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Chicago,2026-05-09,2,1,0,1348,DELIVERED,none
+SHP-0073,Frozen Pizza,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-06,3,2,0,2199,DELIVERED,none
+SHP-0074,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-05-04,3,2,0,985,DELIVERED,none
+SHP-0075,Bottled Water,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-03,8,9,1,4950,DELIVERED,none
+SHP-0076,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-12,3,4,1,2944,DELIVERED,none
+SHP-0077,Pet Food,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-04-17,10,9,0,4115,DELIVERED,none
+SHP-0078,Sports Drink,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-05,9,9,0,4374,DELIVERED,none
+SHP-0079,Laundry Detergent,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-09,9,10,1,2740,DELIVERED,none
+SHP-0080,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-13,9,9,0,3204,DELIVERED,none
+SHP-0081,Shampoo,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-05-12,7,6,0,2216,DELIVERED,none
+SHP-0082,Shampoo,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-05-07,6,7,1,801,DELIVERED,none
+SHP-0083,Frozen Pizza,SUP-004,FreshHarvest Co.,South America,WH-LA,2026-05-02,5,6,1,3771,DELIVERED,none
+SHP-0084,Organic Cereal,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-04-22,8,8,0,3123,DELIVERED,none
+SHP-0085,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-26,8,9,1,3817,DELIVERED,none
+SHP-0086,Laundry Detergent,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-22,3,3,0,4489,DELIVERED,none
+SHP-0087,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-05-08,9,10,1,4397,DELIVERED,none
+SHP-0088,Bottled Water,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-11,5,5,0,215,DELIVERED,none
+SHP-0089,Pet Food,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-16,2,3,1,4121,DELIVERED,none
+SHP-0090,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-04-24,9,9,0,520,DELIVERED,none
+SHP-0091,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-05-11,3,2,0,539,DELIVERED,none
+SHP-0092,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-05-15,6,12,6,4983,DELAYED,port_congestion
+SHP-0093,Bottled Water,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-27,9,9,0,3612,DELIVERED,none
+SHP-0094,Laundry Detergent,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-16,3,2,0,2267,DELIVERED,none
+SHP-0095,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-20,10,13,3,4964,STUCK_IN_TRANSIT,port_congestion
+SHP-0096,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-04-22,6,7,1,683,DELIVERED,none
+SHP-0097,Frozen Pizza,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-05-06,5,6,1,1320,DELIVERED,none
+SHP-0098,Laundry Detergent,SUP-002,PackRight Ltd.,Southeast Asia,WH-Chicago,2026-04-16,4,5,1,4762,DELIVERED,none
+SHP-0099,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-04-29,6,6,0,4145,DELIVERED,none
+SHP-0100,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-04-16,8,9,1,848,DELIVERED,none
+SHP-0101,Frozen Pizza,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-15,2,3,1,4820,DELIVERED,none
+SHP-0102,Organic Cereal,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-01,9,8,0,3670,DELIVERED,none
+SHP-0103,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-04-26,8,9,1,1417,DELIVERED,none
+SHP-0104,Shampoo,SUP-004,FreshHarvest Co.,South America,WH-LA,2026-04-24,8,9,1,821,IN_TRANSIT,none
+SHP-0105,Shampoo,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-18,8,7,0,4544,DELIVERED,none
+SHP-0106,Snack Bars,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-04-21,10,10,0,522,DELIVERED,none
+SHP-0107,Frozen Pizza,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-19,6,7,1,336,DELIVERED,none
+SHP-0108,Bottled Water,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-24,10,19,9,1029,DELAYED,transport_delay
+SHP-0109,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-04-30,6,6,0,4052,DELIVERED,none
+SHP-0110,Snack Bars,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-02,4,5,1,1218,DELIVERED,none
+SHP-0111,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-04-25,10,9,0,2545,DELIVERED,none
+SHP-0112,Bottled Water,SUP-005,MetalWorks Global,East Asia,WH-LA,2026-05-12,4,4,0,4621,DELIVERED,none
+SHP-0113,Pet Food,SUP-004,FreshHarvest Co.,South America,WH-LA,2026-05-14,7,8,1,3237,DELIVERED,none
+SHP-0114,Frozen Pizza,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-04-25,9,9,0,1346,DELIVERED,none
+SHP-0115,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-01,7,7,0,3843,IN_TRANSIT,none
+SHP-0116,Organic Cereal,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-12,4,19,15,3356,STUCK_IN_TRANSIT,port_congestion
+SHP-0117,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-27,7,7,0,394,DELIVERED,none
+SHP-0118,Bottled Water,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-05,6,7,1,906,IN_TRANSIT,none
+SHP-0119,Sports Drink,SUP-004,FreshHarvest Co.,South America,WH-Dallas,2026-05-07,6,5,0,559,DELIVERED,none
+SHP-0120,Laundry Detergent,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-28,4,4,0,1575,DELIVERED,none
+SHP-0121,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Chicago,2026-05-04,8,7,0,4877,DELIVERED,none
+SHP-0122,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-05,6,7,1,3911,IN_TRANSIT,none
+SHP-0123,Laundry Detergent,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-17,9,10,1,3575,DELIVERED,none
+SHP-0124,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-04-21,8,7,0,4785,DELIVERED,none
+SHP-0125,Shampoo,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-05-07,6,19,13,166,STUCK_IN_TRANSIT,port_congestion
+SHP-0126,Bottled Water,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-08,9,9,0,1985,DELIVERED,none
+SHP-0127,Bottled Water,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-05-05,5,6,1,1220,DELIVERED,none
+SHP-0128,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-10,9,17,8,838,REROUTED,transport_delay
+SHP-0129,Laundry Detergent,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-04-20,5,16,11,1447,STUCK_IN_TRANSIT,port_congestion
+SHP-0130,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-08,7,7,0,1253,DELIVERED,none
+SHP-0131,Frozen Pizza,SUP-004,FreshHarvest Co.,South America,WH-Atlanta,2026-04-26,3,2,0,1112,DELIVERED,none
+SHP-0132,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-05-03,8,8,0,2015,DELIVERED,none
+SHP-0133,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-13,10,11,1,617,DELIVERED,none
+SHP-0134,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-LA,2026-04-18,4,7,3,1051,STUCK_IN_TRANSIT,port_congestion
+SHP-0135,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-19,8,9,1,4525,DELIVERED,none
+SHP-0136,Canned Soup,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-05-13,8,8,0,2391,DELIVERED,none
+SHP-0137,Organic Cereal,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-04-29,9,9,0,3109,IN_TRANSIT,none
+SHP-0138,Pet Food,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-04-27,6,5,0,3825,DELIVERED,none
+SHP-0139,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-15,2,1,0,4725,DELIVERED,none
+SHP-0140,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-04-21,5,4,0,1308,DELIVERED,none
+SHP-0141,Bottled Water,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-12,4,5,1,1529,DELIVERED,none
+SHP-0142,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-04-15,7,6,0,229,DELIVERED,none
+SHP-0143,Baby Formula,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-04-19,8,9,1,3772,IN_TRANSIT,none
+SHP-0144,Shampoo,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-04-18,9,10,1,4371,IN_TRANSIT,none
+SHP-0145,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-04-16,9,9,0,4116,DELIVERED,none
+SHP-0146,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-Chicago,2026-04-25,4,11,7,3220,REROUTED,port_congestion
+SHP-0147,Bottled Water,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-29,10,9,0,1037,DELIVERED,none
+SHP-0148,Pet Food,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-04-29,5,5,0,878,DELIVERED,none
+SHP-0149,Shampoo,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-06,6,5,0,3985,DELIVERED,none
+SHP-0150,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Chicago,2026-04-17,8,22,14,4657,STUCK_IN_TRANSIT,transport_delay
+SHP-0151,Organic Cereal,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-02,7,7,0,3564,DELIVERED,none
+SHP-0152,Organic Cereal,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-24,7,18,11,4050,DELAYED,transport_delay
+SHP-0153,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-05-12,10,10,0,3615,DELIVERED,none
+SHP-0154,Pet Food,SUP-005,MetalWorks Global,East Asia,WH-Atlanta,2026-05-06,10,23,13,337,REROUTED,port_congestion
+SHP-0155,Baby Formula,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-05-14,7,6,0,4739,DELIVERED,none
+SHP-0156,Canned Soup,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-08,2,13,11,3539,DELAYED,port_congestion
+SHP-0157,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-04-26,6,7,1,530,DELIVERED,none
+SHP-0158,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-16,3,4,1,3721,DELIVERED,none
+SHP-0159,Canned Soup,SUP-003,ChemBlend Corp.,Western Europe,WH-Dallas,2026-05-09,10,19,9,4958,DELAYED,port_congestion
+SHP-0160,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Newark,2026-04-16,5,6,1,1774,IN_TRANSIT,none
+SHP-0161,Laundry Detergent,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-05-09,6,5,0,3627,IN_TRANSIT,none
+SHP-0162,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-02,5,6,1,690,DELIVERED,none
+SHP-0163,Canned Soup,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-04-15,9,9,0,4797,DELIVERED,none
+SHP-0164,Canned Soup,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-04-18,8,16,8,3064,DELAYED,port_congestion
+SHP-0165,Sports Drink,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-04-22,8,9,1,2641,IN_TRANSIT,none
+SHP-0166,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-05-09,4,17,13,2962,DELAYED,transport_delay
+SHP-0167,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-18,4,3,0,717,DELIVERED,none
+SHP-0168,Baby Formula,SUP-004,FreshHarvest Co.,South America,WH-LA,2026-05-09,9,10,1,2747,DELIVERED,none
+SHP-0169,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-04-17,9,9,0,4944,DELIVERED,none
+SHP-0170,Organic Cereal,SUP-003,ChemBlend Corp.,Western Europe,WH-Atlanta,2026-04-17,6,5,0,2451,IN_TRANSIT,none
+SHP-0171,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-04,10,11,1,436,DELIVERED,none
+SHP-0172,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-25,9,8,0,2913,DELIVERED,none
+SHP-0173,Sports Drink,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-16,5,5,0,1400,DELIVERED,none
+SHP-0174,Shampoo,SUP-003,ChemBlend Corp.,Western Europe,WH-Newark,2026-04-27,8,9,1,2841,DELIVERED,none
+SHP-0175,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-02,8,9,1,1331,DELIVERED,none
+SHP-0176,Shampoo,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-06,4,4,0,3310,DELIVERED,none
+SHP-0177,Baby Formula,SUP-005,MetalWorks Global,East Asia,WH-Chicago,2026-04-24,10,10,0,4412,DELIVERED,none
+SHP-0178,Sports Drink,SUP-004,FreshHarvest Co.,South America,WH-Atlanta,2026-04-26,2,1,0,2899,DELIVERED,none
+SHP-0179,Snack Bars,SUP-002,PackRight Ltd.,Southeast Asia,WH-Dallas,2026-04-19,4,19,15,2858,DELAYED,transport_delay
+SHP-0180,Bottled Water,SUP-002,PackRight Ltd.,Southeast Asia,WH-Atlanta,2026-04-27,4,5,1,1456,DELIVERED,none
+SHP-0181,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-04-26,5,6,1,3777,DELIVERED,none
+SHP-0182,Frozen Pizza,SUP-005,MetalWorks Global,East Asia,WH-Dallas,2026-04-24,9,8,0,4772,DELIVERED,none
+SHP-0183,Snack Bars,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-09,8,8,0,1735,DELIVERED,none
+SHP-0184,Bottled Water,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-16,9,10,1,4326,DELIVERED,none
+SHP-0185,Sports Drink,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-09,4,5,1,3683,DELIVERED,none
+SHP-0186,Sports Drink,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-05-13,7,7,0,4212,IN_TRANSIT,none
+SHP-0187,Shampoo,SUP-002,PackRight Ltd.,Southeast Asia,WH-LA,2026-04-17,7,7,0,2846,DELIVERED,none
+SHP-0188,Baby Formula,SUP-002,PackRight Ltd.,Southeast Asia,WH-Chicago,2026-04-24,9,8,0,3942,DELIVERED,none
+SHP-0189,Snack Bars,SUP-005,MetalWorks Global,East Asia,WH-Chicago,2026-05-13,3,9,6,1010,DELAYED,port_congestion
+SHP-0190,Laundry Detergent,SUP-002,PackRight Ltd.,Southeast Asia,WH-Newark,2026-04-18,2,3,1,3844,DELIVERED,none
+SHP-0191,Sports Drink,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-05-04,10,21,11,1276,REROUTED,transport_delay
+SHP-0192,Laundry Detergent,SUP-004,FreshHarvest Co.,South America,WH-Chicago,2026-05-04,7,7,0,801,DELIVERED,none
+SHP-0193,Pet Food,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-15,10,11,1,3298,DELIVERED,none
+SHP-0194,Snack Bars,SUP-001,AgriSource Inc.,Midwest US,WH-LA,2026-04-26,6,6,0,2924,DELIVERED,none
+SHP-0195,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Atlanta,2026-05-08,7,15,8,1534,REROUTED,port_congestion
+SHP-0196,Snack Bars,SUP-004,FreshHarvest Co.,South America,WH-Dallas,2026-05-10,4,19,15,2503,STUCK_IN_TRANSIT,transport_delay
+SHP-0197,Frozen Pizza,SUP-001,AgriSource Inc.,Midwest US,WH-Dallas,2026-05-13,2,2,0,4548,DELIVERED,none
+SHP-0198,Snack Bars,SUP-003,ChemBlend Corp.,Western Europe,WH-Chicago,2026-05-09,5,4,0,2819,DELIVERED,none
+SHP-0199,Laundry Detergent,SUP-001,AgriSource Inc.,Midwest US,WH-Newark,2026-04-28,8,8,0,1630,DELIVERED,none
+SHP-0200,Snack Bars,SUP-004,FreshHarvest Co.,South America,WH-Newark,2026-05-14,10,9,0,746,DELIVERED,none
